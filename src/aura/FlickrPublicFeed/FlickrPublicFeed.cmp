@@ -26,8 +26,8 @@
         </div>
 
         <div class="controls">
-            <ui:outputURL value="#" label="&lt;&lt;" click="{!c.previousPhoto}" class="prev"/>
-            <ui:outputURL value="#" label="&gt;&gt;" click="{!c.nextPhoto}" class="next"/>
+            <ui:outputURL value="javascript:void(0);" label="&lt;&lt;" click="{!c.previousPhoto}" class="prev"/>
+            <ui:outputURL value="javascript:void(0);" label="&gt;&gt;" click="{!c.nextPhoto}" class="next"/>
         </div>
 
     </div>
