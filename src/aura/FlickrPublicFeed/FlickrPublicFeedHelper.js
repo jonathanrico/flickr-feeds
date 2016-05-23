@@ -50,7 +50,7 @@
     },
 
     startAutoPlay : function(component){
-        var autoPlay = component.get('v.autoplay');
+        var autoPlay = component.get('v.autoPlay');
         if(autoPlay == true || autoPlay == 'true'){
             var moveFunction = this.moveToNextPhoto;
             var autoPlay = function () {
